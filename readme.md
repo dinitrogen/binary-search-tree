@@ -37,7 +37,7 @@ Outputs:
 tree.insert(40);
 tree.insert(43);
 tree.insert(41);
-tree.insert(40);
+tree.insert(40); // duplicates are removed
 prettyPrint(tree.root);
 console.log("Is tree balanced? " + tree.isBalanced());
 ```
